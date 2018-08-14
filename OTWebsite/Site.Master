@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="OTWebsite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Theta Tau Omega Beta</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link rel ="shortcut icon" href="Pictures/favicon%20(1).ico" type="favicon/ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div style="background:darkred" class ="jumbotron text-center">
+                <h1 style="color:gold">Theta Tau | ΩB Chapter</h1>
+            </div>
+            <h1></h1>
+                <div>
+                    <ul>
+                        <li><a href ="Default.aspx">Home</a></li>
+                        <li><a href ="About.aspx">About Us</a></li>
+                        <li><a href ="Contact.aspx">Contact Information</a></li>
+                        <li><a href ="BrothersPage.aspx">Meet the Brothers</a></li>
+                    </ul>
+                </div>
+            
+        </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+    </form>
+</body>
+</html>
